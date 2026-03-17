@@ -34,6 +34,8 @@ This project addresses these issues by:
 ✅ Grounding responses in verified documents  
 ✅ Designing ethical AI interaction patterns  
 ✅ Deploying a real time AI support prototype  
+
+
 ---
 
 ## 🚀 Live Demo
