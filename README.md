@@ -1,8 +1,8 @@
-# 🌿 Mental Health Assistant — RAG-based AI Support System
+# 🌿 Mental Health Assistant - RAG-based AI Support System
 
 A production-style Retrieval-Augmented Generation (RAG) application that provides supportive mental health responses using domain documents and a large language model.
 
-This project demonstrates real-world GenAI system design including vector search, document retrieval, prompt orchestration, and cloud deployment.
+This project demonstrates real world GenAI system design including vector search, document retrieval, prompt orchestration, and cloud deployment.
 
 ---
 
@@ -11,9 +11,9 @@ This project demonstrates real-world GenAI system design including vector search
 This system combines:
 
 - Semantic document retrieval (RAG)
-- LLM-based response generation
+- LLM based response generation
 - Mental health knowledge grounding
-- Real-time conversational UI
+- Real time conversational UI
 
 The assistant provides supportive, context-aware responses by retrieving relevant content from curated mental health documents.
 
@@ -33,7 +33,7 @@ This project addresses these issues by:
 ✅ Using Retrieval Augmented Generation  
 ✅ Grounding responses in verified documents  
 ✅ Designing ethical AI interaction patterns  
-✅ Deploying a real-time AI support prototype  
+✅ Deploying a real time AI support prototype  
 
 ---
 
@@ -84,7 +84,7 @@ User Query
 
 ## 🚀 Live Demo
 
-🔗 [Streamlit App Link] *(Add your link here)*
+🔗 [Streamlit App Link] *(https://llm-mental-health-assistant-k9pzq9d9oyqzjwhkbytzep.streamlit.app/)*
 
 ---
 
