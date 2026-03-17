@@ -34,6 +34,13 @@ This project addresses these issues by:
 ✅ Grounding responses in verified documents  
 ✅ Designing ethical AI interaction patterns  
 ✅ Deploying a real time AI support prototype  
+---
+
+## 🚀 Live Demo
+
+🔗 https://llm-mental-health-assistant-k9pzq9d9oyqzjwhkbytzep.streamlit.app/
+---
+
 
 ---
 
@@ -79,13 +86,6 @@ User Query
 ✔ Cloud-deployed real-time chatbot  
 ✔ Scalable document ingestion architecture  
 ✔ Ethical AI response framing  
-
----
-
-## 🚀 Live Demo
-
-🔗 https://llm-mental-health-assistant-k9pzq9d9oyqzjwhkbytzep.streamlit.app/
----
 
 
 ---
