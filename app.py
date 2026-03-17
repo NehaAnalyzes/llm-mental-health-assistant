@@ -83,8 +83,8 @@ Assistant:
 
     try:
         response = llm.invoke(full_prompt).content
-    except Exception:
-        response = "I'm having trouble responding right now. Please try again."
+    except Exception as e:
+    response = f"LLM ERROR: {str(e)}"
 
     st.session_state.messages.append({"role": "assistant", "content": response})
     st.chat_message("assistant").write(response)
