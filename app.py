@@ -47,7 +47,7 @@ retriever = vectordb.as_retriever(search_kwargs={"k": 2})  # reduced for speed
 # LOAD GEMINI (SAFE MODEL)
 # =========================
 llm = ChatGoogleGenerativeAI(
-    model="models/gemini-1.0-pro",
+    model="gemini-1.5-flash",
     api_key=st.secrets["GOOGLE_API_KEY"],
     temperature=0.6
 )
