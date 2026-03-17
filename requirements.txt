@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+langchain-text-splitters
+langchain-google-genai
+chromadb
+sentence-transformers
+pypdf
+torch
+pysqlite3-binary
