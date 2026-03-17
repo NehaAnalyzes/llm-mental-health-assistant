@@ -47,7 +47,7 @@ retriever = vectordb.as_retriever(search_kwargs={"k": 2})  # reduced for speed
 # =========================
 
 llm = ChatGroq(
-    model="llama3-8b-8192",
+    model="llama-3.3-70b-versatile",
     api_key=st.secrets["GROQ_API_KEY"],
     temperature=0.6
 )
