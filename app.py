@@ -5,6 +5,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
+from langchain_groq import ChatGroq
 
 st.set_page_config(page_title="Mental Health Assistant", page_icon="🌿")
 
@@ -44,11 +45,10 @@ vectordb = load_vectordb()
 retriever = vectordb.as_retriever(search_kwargs={"k": 2})  # reduced for speed
 
 # =========================
-# LOAD GEMINI (SAFE MODEL)
-# =========================
-llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash",
-    api_key=st.secrets["GOOGLE_API_KEY"],
+
+llm = ChatGroq(
+    model="llama3-70b-8192",
+    api_key=st.secrets["GROQ_API_KEY"],
     temperature=0.6
 )
 
