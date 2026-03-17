@@ -84,8 +84,85 @@ User Query
 
 ## 🚀 Live Demo
 
-🔗 [Streamlit App Link] *(https://llm-mental-health-assistant-k9pzq9d9oyqzjwhkbytzep.streamlit.app/)*
+🔗 https://llm-mental-health-assistant-k9pzq9d9oyqzjwhkbytzep.streamlit.app/
+---
+
 
 ---
 
-## 📁 Project Structure
+## 🧩 RAG Pipeline Details
+
+### 1️⃣ Document Processing
+- Mental health PDFs ingested
+- Recursive chunking strategy
+- Semantic embedding generation
+
+### 2️⃣ Retrieval System
+- Vector similarity search using Chroma
+- Top k context selection
+- Context compression in prompt
+
+### 3️⃣ LLM Response Generation
+- LLaMA-3 via Groq inference
+- Controlled temperature for safe responses
+- Context grounded generation
+
+---
+
+## ⚡ Performance Optimizations
+
+- Prebuilt vector database (reduces cold start time)
+- Lightweight embedding model
+- Reduced retrieval depth
+- Efficient Streamlit caching
+- Cloud friendly architecture
+
+---
+
+## 🛡️ Ethical Considerations
+
+This system is designed as:
+
+⚠️ A supportive informational tool  
+❌ NOT a replacement for professional therapy  
+
+Future safety improvements planned:
+
+- Crisis detection layer
+- Response guardrails
+- Citation highlighting
+- Safety classifier integration
+
+---
+
+## 📈 Future Improvements
+
+- Multi LLM fallback system
+- Response citation display
+- Retrieval evaluation metrics
+- Memory augmented conversations
+- Fine-tuned domain embedding model
+- Clinical safety framework
+
+---
+
+## 🎓 Learning Outcomes
+
+Through this project, I gained experience in:
+
+- Real world GenAI system deployment
+- Vector database optimization
+- LLM orchestration strategies
+- Cloud debugging & dependency resolution
+- Ethical AI system design
+
+---
+
+
+
+## ⭐ Acknowledgements
+
+- LangChain ecosystem
+- Groq inference platform
+- Streamlit Cloud
+- Open mental health resources
