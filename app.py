@@ -75,7 +75,7 @@ try:
     llm = load_llm()
 
 except Exception as e:
-    st.error(f"Application initialization failed: {e}")
+    st.exception(e)
     st.stop()
 
 
