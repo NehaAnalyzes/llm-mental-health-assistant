@@ -56,7 +56,7 @@ def load_vectordb():
 def load_llm():
 
     return ChatGroq(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         api_key=st.secrets["GROQ_API_KEY"],
         temperature=0.6
     )
